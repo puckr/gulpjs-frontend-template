@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.padded {
+  padding: 0px 20px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
+.centeredV {
+  align-items: center;
+}
+
+.centeredH {
+  justify-content: center;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.small {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.header-body {
+  justify-content: space-between;
+}
+
+.heading {
+  margin-top: 120px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+}
+
+.computer-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.computer-container .computer {
+  width: 640px;
+  height: 448px;
+  background: #F5F9FD;
+  border-radius: 18px;
+  position: relative;
+  margin: auto;
+  padding: 25px 25px;
+}
+
+.computer-container .computer .screen {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: white;
+}
+
+.computer .terminal {
+  height: 100%;
+  color: #85FF00;
+  background-color: #002b36;
+}
+
+.terminal .commands {
+  border-radius: 0 0 5px 5px;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 100%;
+  font-size: 14pt;
+}
+
+.footer, .header {
+  background-color: #CF4647;
+  color: white;
+}
+
+.header {
+  padding: 20px 0 90px 0;
+  overflow: hidden;
+}
+
+.logo {
+  height: 40px;
+}
+
+.computer {
+  background-color: ;
+}
+
+.info {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.info-container .button {
+  margin-top: 40px;
+}
+
+.info-container .button a {
+  display: inline-flex;
+  height: 40px;
+  padding: 0 30px;
+  background: white;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #CF4647;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.feature-image {
+  margin-bottom: 30px;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
