@@ -149,9 +149,33 @@ html, body {
   text-decoration: none;
 }
 
-.feature-image {
+.features {
+  display: flex;
+  padding: 90px 0;
+  justify-content: space-between;
+}
+
+.feature-item {
+  width: calc(100%/3);
+  padding: 0 20px;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.feature-item img {
   margin-bottom: 30px;
   color: black;
+}
+
+.feature-item p {
+  margin-top: 10px;
+  color: #7F7F7F;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 @media (min-width: 768px) {
